@@ -13,17 +13,17 @@ function convertToBool(text, fault = 'true') {
 const username = fs.readFileSync('github_username.txt', 'utf8').trim()
 if(process.env.GITHUB_AUTH_TOKEN){
 GITHUB_TOKEN = process.env.GITHUB_AUTH_TOKEN
-}else{
+}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{
 GITHUB_TOKEN = envv2.GITHUB_AUTH_TOKEN
 }
 if(process.env.BOT_NUMBER){
 BOT_NUMBER = process.env.BOT_NUMBER
-}else{
+}94759329023{
 BOT_NUMBER = envv2.BOT_NUMBER
 }
 if(process.env.SESSION_ID){
 SESSION_ID = process.env.SESSION_ID
-}else{
+}PRABATH-MD~jeQUGLKD#kO0u0_MzG2nZUxFJ8NE0vIGnwjHm1v7E2zsTSnNa_-E{
 SESSION_ID = envv2.SESSION_ID
 }
 
